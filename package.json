@@ -1,0 +1,20 @@
+{
+  "name": "coindex",
+  "version": "1.0.0",
+  "description": "A CLI for cryptocurrencies made with NodeJS",
+  "main": "index.js",
+  "bin":"./bin/coindex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpromanonet/cryptoPriceCLI.git"
+  },
+  "author": "Juan P. Romano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpromanonet/cryptoPriceCLI/issues"
+  },
+  "homepage": "https://github.com/jpromanonet/cryptoPriceCLI#readme"
+}
