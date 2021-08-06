@@ -1,10 +1,10 @@
 # Coindex CLI
 
-Command line interface written in Node.js to check cryptocurrency prices
+CLI escrito en Node JS para revisar precios de criptomonedas
 
-Register an API key at https://nomics.com
+Registra tu API key at https://nomics.com
 
-## Usage
+## Uso
 
 ```
 npm install
@@ -12,34 +12,34 @@ npm install
 npm link
 ```
 
-## Commands
+## Comandos
 
 ```
-# Help & Commands
+# Ayuda & Comandos
 coindex -h
 
 # Version
 coindex -V
 
-# API Key Commands
+# Comandos para la API Key
 coindex key set
 coindex key show
 coindex key remove
 
-# Crypto Check Commands
+# Comandos para revisar los precios.
 coindex check price
 
-# Check Specific Coins (default: BTN,ETH,XRP)
+# Revisar monedas especificas (Por defecto: BTN,ETH,XRP)
 coindex check --coin=BTC,ETH
 
-# Choose Currency (Default: USD)
+# Elegir la moneda (Por defecto: USD)
 coindex check --cur=EUR
 ```
 
 ### Version
 
-1.0.0
+0.0.1
 
-### License
+### Licencia
 
 MIT
